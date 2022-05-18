@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    background-color: grey;
+}
+
+#ContaTotal{
+    position: relative;
+    top: 110px;
+    left: 265px;
+}
+
+#tabela{
+    background-color:blanchedalmond;
+}
+
+#Text_Aliamento {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#cabecalho {
+    text-decoration: underline;
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+}
+
+#CasoInicial {
+    position: relative;
+    left: 55px;
+}
+
+#AST1 {
+    position: relative;
+    left: 155px;
+}
+
+#AST2 {
+    position: relative;
+    left: 155px;
+}
+
+#AST3 {
+    position: relative;
+    left: 155px;
+}
+
+#calcular {
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    left: 240px;
+}
+
+#apagar {
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    left: 40px;
+}

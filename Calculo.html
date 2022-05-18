@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Calculo.css">
+    <title>Planilha de Calculos</title>
+</head>
+
+<body>
+
+    <div id="ContaTotal">
+        <header id="cabecalho">Planilha de Conta</header>
+        <div id="Text_Aliamento">
+            <table border="1" id="tabela">
+                <thead>
+                    <tr id="CasosInicial">
+                    <tr id="List">
+                        <td>Codigo</td>
+                        <td>Descrição</td>
+                        <td>Valor</td>
+                    </tr>
+                    <th id="AST1">RECEITAS</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Valor Base (R$)</td>
+                        <td>
+                            <input type="number" id="receita1" form="reset">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ajuda Com Transporte (R$)</td>
+                        <td>
+                            <input type="number" id="receita2" form="reset">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ajuda Alimentação (R$)</td>
+                        <td>
+                            <input type="number" id="receita3" form="reset">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Receita Total (R$)</td>
+                        <td>
+                            <input type="text" id="resultadototal" form="reset" disabled></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th id="AST2">DESCONTOS</th>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Desconto De Automóvel(R$)</td>
+                        <td>
+                            <input type="number" id="desconto1" form="reset">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Faltas (R$)</td>
+                        <td>
+                            <input type="number" id="desconto2" form="reset">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Desconto Total (R$)</td>
+                        <td>
+                            <input type="text" id="descontototal" form="reset" disabled></input>
+                        </td>
+                    <tr>
+                        <th id="AST3">TOTAL</th>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Total (R$)</td>
+                        <td>
+                            <input type="text" id="valortotal" form="reset" disabled></input>
+                        </td>
+                </thead>
+            </table>
+        </div>
+        <form id="reset">
+            <button type="submit" id="calcular">Calcular</button>
+            <button type="submit" id="apagar">Resetar</button>
+        </form>
+        <script src="js/Calculo.js"></script>
+</body>
+
+</html>
